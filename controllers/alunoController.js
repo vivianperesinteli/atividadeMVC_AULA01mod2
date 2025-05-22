@@ -29,4 +29,3 @@ exports.byCurso = async (req, res) => {
   const alunos = await Aluno.findByCurso(curso_id);
   res.json(alunos);
 };
-
